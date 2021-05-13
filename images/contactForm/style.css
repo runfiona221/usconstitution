@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+    /* UNLESS YOU RESET OUTLINE SOMEWHERE ELSE NEVER EVER USE OUTLINE NONE! */
+    /* outline: none; */
+
+}
+
+
+body {
+    color: #404040;
+    margin-top: 80px;
+    background-color: #fcf2ef;
+    font-family: 'Khula', sans-serif;
+    font-size: 1rem;
+}
+
+.page-header {
+    
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h1 {
+    color: #00AEAE;
+    margin-bottom: 1rem;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-weight: border; */
+    letter-spacing: .50rem;
+    
+}
+
+.fic-form-contact {
+    width: 30ch;
+    width: max-content;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+.fic-form-contact .hed {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+
+form div {
+    margin-bottom: 1em;
+    /* border: 1px solid red; */
+    font-size: 1.1em;
+
+}
+
+.fic-form-contact label {
+    font-size: 85%;
+    text-align: left;
+    border-top-style: none;  
+}
+
+.hed {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 2.5;
+    margin-top: 1em
+    margin-bottom .5em;
+    text-transform: uppercase; 
+    color: #00AEAE;
+
+}
+
+input {
+    /* border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style:hidden; */
+    border: none;
+    border-bottom: 1px solid #666;
+    background-color: #fcf2ef;
+    
+}
+
+input::placeholder, 
+textarea::placeholder {
+    font-family: 'Lateef', cursive;
+    /* font-family: 'Dancing Script', cursive;  */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    text-transform: uppercase;
+    color: #00AEAE;   
+}
+    
+
+label {
+    text-transform: uppercase;
+    font-size: 1em;
+    color:#ca2c92;
+    font-family: 'Poppins', sans-serif;    
+}
+
+textarea {
+    width: 250px;
+    border: 1px solid #404040;
+    border-radius: .25rem;
+    margin-top: 1em;
+    padding: 15px;
+    background-color: #fcf2ef;
+}
+
+#msg-submit {
+    background-color: #00AEAE;
+    color: #fcf2ef;
+    border-bottom-style: none;
+}
+
+
+/* .submit-container{
+    color: #363b40;
+    background-color: #00AEAE;
+    font-family: 'Lateef', cursive;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 3em;
+    border-radius: 3rem;
+    justify-content: center;
+    display: flex;
+    cursor: pointer; 
+    width: 1em;
+       
+    /* kind of like this font size it changes the button to a circle. I like that but it would have to be a lot smaller. How do you do that? */
+    /* font-size: 5rem; */
+
+
+.user-action-container {
+    margin: .5em;
+    width: 12ch;
+    height: 12ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 75%;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #ca2c92;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.user-action-container button {
+    
+    background: none;
+    border: none;width: 10ch;
+}
+
+.user-action-container a {
+    padding: 1em;
+    
+}
+
+.user-action-container a:hover {
+    text-decoration: none;
+    
+}
+
+.user-sign-in, .sign-in-href {
+    display: flex; 
+
+}
+
+
+
+/* messing around with fiona.html erase later */
+
+
+
+
+
+.submit-message {
+    height: 50%;
+    width: 20%;
+    margin: 1.5em;
+    padding: 1.5em;
+    border-radius: .5em;
+    background-color: #00AEAE;
+    color: white;
+}
+
+button:hover {
+    background-color: #027575;
+}
+
+
+/* #signup-submit {
+    background-color: #ca2c92;
+    color: #fcf2ef;
+    border-bottom-style: none;
+}
+
+
+.signIn-container {
+    background-color: #fcf2ef;
+    color: #ca2c92;
+    font-size: 1.5em;
+    min-width: 15em;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}
+
+.sign-in-href {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+/* 
+
+
+
+.contact {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #00AEAE;
+    font-size: 30px;
+
+}
+
+h1 {
+    color: #00AEAE;
+    padding-bottom: 40px;
+    font-size: 40px;
+    line-height: 1.2;
+
+}
+
+
+img {
+    display: block;
+    height: auto;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: inherit;
+}
+
+input {
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-color: #404040;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 15px;
+    width: 250px;
+    display: inline-block;
+
+}
+
+textarea {
+    width: 250px;
+    border: 1px solid;
+    border-color: #404040;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+
+#msg-submit {
+    background-color: #00AEAE;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    border-color: #404040;
+    border-radius: 2px;
+    color: white;
+
+} */
